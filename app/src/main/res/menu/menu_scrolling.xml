@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.tagssolutions.scrollingapp.ScrollingActivity">
+    <item
+        android:id="@+id/action_search"
+        android:orderInCategory="200"
+        android:title="m"
+        android:visible="true"
+        android:icon="@drawable/ic_search_white"
+        app:showAsAction="ifRoom"
+        />
+
+    <item
+        android:id="@+id/action_cart"
+        android:orderInCategory="100"
+        android:title="m"
+        android:visible="true"
+        android:icon="@drawable/ic_cart_white"
+        app:showAsAction="ifRoom"
+        />
+</menu>
